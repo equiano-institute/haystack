@@ -96,7 +96,7 @@ export default function Unseal() {
 
           <div className="flex items-center justify-end gap-4 mt-4">
             <Link
-              href="/share"
+              href="/redteam"
               type="button"
               className="relative inline-flex items-center px-4 py-2 -ml-px space-x-2 text-sm font-medium duration-150 border rounded text-zinc-300 border-zinc-300/40 hover:border-zinc-300 focus:outline-none hover:text-white"
             >
@@ -150,7 +150,7 @@ export default function Unseal() {
               loading ? "animate-pulse" : ""
             }`}
           >
-            <span>{loading ? <Cog6ToothIcon className="w-5 h-5 animate-spin" /> : "Unseal"}</span>
+            <span>{loading ? <Cog6ToothIcon className="w-5 h-5 animate-spin" /> : "Blue"}</span>
           </button>
         </form>
       )}

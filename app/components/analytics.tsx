@@ -1,7 +1,7 @@
 "use client";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 
-const track = ["/", "/share", "/deploy", "/unseal"];
+const track = ["/", "/redteam", "/deploy", "/blue"];
 
 export function Analytics() {
   return (

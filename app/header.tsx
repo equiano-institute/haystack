@@ -5,12 +5,12 @@ import { usePathname } from "next/navigation";
 
 const navigation = [
   {
-    name: "Share",
-    href: "/share",
+    name: "RedTeam",
+    href: "/redteam",
   },
   {
-    name: "Unseal",
-    href: "/unseal",
+    name: "Blue",
+    href: "/blue",
   },
 
   {
@@ -19,7 +19,7 @@ const navigation = [
   },
   {
     name: "GitHub",
-    href: "https://github.com/chronark/envshare",
+    href: "https://github.com/equiano-institute/haystack",
     external: true,
   },
 ] satisfies { name: string; href: string; external?: boolean }[];
@@ -30,8 +30,8 @@ export const Header: React.FC = () => {
     <header className="top-0 z-30 w-full px-4 sm:fixed backdrop-blur bh-zinc-900/50">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between gap-2 pt-6 sm:h-20 sm:flex-row sm:pt-0">
-          <Link href="/" className="text-2xl font-semibold duration-150 text-zinc-100 hover:text-white">
-            EnvShare
+          <Link href="/" className="text-2xl font-semibold duration-150 text-zinc-800 hover:text-white">
+            HayStack
           </Link>
           {/* Desktop navigation */}
           <nav className="flex items-center grow">

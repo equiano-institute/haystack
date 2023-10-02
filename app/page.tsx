@@ -11,19 +11,21 @@ export default function Home() {
             href="https://github.com/chronark/envshare"
             className="text-zinc-400 relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-zinc-100/10 hover:ring-zinc-100/30 duration-150"
           >
-            EnvShare is Open Source on{" "}
+            HayStack is the model evaluator by {" "}
             <span className="font-semibold text-zinc-200">
-              GitHub <span aria-hidden="true">&rarr;</span>
+              Equiano Institute <span aria-hidden="true">&rarr;</span>
             </span>
           </Link>
         </div>
         <div>
           <h1 className="py-4 text-5xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white sm:text-7xl">
-            Share Environment Variables Securely
+           Evaluate language models through        <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-red-500">
+           red-teaming
+  </span>
           </h1>
           <p className="mt-6 leading-5 text-zinc-600 sm:text-center">
-            Your document is encrypted in your browser before being stored for a limited period of time and read
-            operations. Unencrypted data never leaves your browser.
+          Haystack is a model evaluations and red-teaming suite for LLMs.
+            This benchmark suite is designed to evaluate the performance and security of large language models through red-teaming.
           </p>
           <div className="flex flex-col justify-center gap-4 mx-auto mt-8 sm:flex-row sm:max-w-lg ">
             <Link
@@ -33,10 +35,10 @@ export default function Home() {
               Deploy
             </Link>
             <Link
-              href="/share"
+              href="/redteam"
               className="sm:w-1/2 sm:text-center inline-block transition-all space-x-2  rounded px-4 py-1.5 md:py-2 text-base font-semibold leading-7 text-zinc-800   bg-zinc-50 ring-1 ring-transparent hover:text-zinc-100 hover:ring-zinc-600/80  hover:bg-zinc-900/20 duration-150 hover:drop-shadow-cta"
             >
-              <span>Share</span>
+              <span>RedTeam</span>
               <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>

@@ -8,33 +8,49 @@ const steps: {
   description: string | React.ReactNode;
   cta?: React.ReactNode;
 }[] = [
+
+  {
+    name: "Copy the API credentials",
+    description: (
+      <p>
+        After creating the database, scroll to the bottom and make a note of <code>UPSTASH_REDIS_REST_URL</code> and{" "}
+        <code>UPSTASH_REDIS_REST_TOKEN</code>, you need them in the next step
+        <Link
+        href="https://platform.openai.com/account/api-keys"
+        className="flex items-center justify-center mx-auto w-24  gap-2 m-4 p-2 text-sm text-center transition-all duration-150 rounded text-zinc-800 hover:text-zinc-100 bg-zinc-200 hover:bg-transparent ring-1 ring-zinc-100"
+        >  
+         GET
+        <ArrowTopRightOnSquareIcon className="w-4 h-4" />
+      </Link>
+      </p>
+    ),
+  },
+
   {
     name: "Create a new Redis database on Upstash",
     description: (
       <>
         Upstash offers a serverless Redis database with a generous free tier of up to 10,000 requests per day. That's
         more than enough.
+        
         <br />
         Click the button below to sign up and create a new Redis database on Upstash.
       </>
     ),
     cta: (
-      <Link
-        href="https://console.upstash.com/redis"
+      <div className="flex">
+ <input
+        placeholder="Enter GPT-3 KEY"
+        type="text"
         className="flex items-center justify-center w-full gap-2 px-4 py-2 text-sm text-center transition-all duration-150 rounded text-zinc-800 hover:text-zinc-100 bg-zinc-200 hover:bg-transparent ring-1 ring-zinc-100"
-      >
-        <span>Create Database</span>
-        <ArrowTopRightOnSquareIcon className="w-4 h-4" />
-      </Link>
-    ),
-  },
-  {
-    name: "Copy the REST connection credentials",
-    description: (
-      <p>
-        After creating the database, scroll to the bottom and make a note of <code>UPSTASH_REDIS_REST_URL</code> and{" "}
-        <code>UPSTASH_REDIS_REST_TOKEN</code>, you need them in the next step
-      </p>
+      >  
+      </input>
+
+
+
+      
+      </div>
+     
     ),
   },
   {
