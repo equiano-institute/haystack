@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div>
           <h1 className="py-4 text-5xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white sm:text-7xl">
-           Evaluate language models through        <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-red-500">
+           Evaluate language models through        <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-400/50 to-red-500">
            red-teaming
   </span>
           </h1>
