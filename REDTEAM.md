@@ -1,49 +1,32 @@
-Capabilities testing: Assesses intended functionality through general benchmarks (Evals paper).
+# Red Teaming 
 
-Robustness testing: Evaluates resilience against edge cases and adversarial inputs. Includes:
+## Capabilities Assessment
 
-Adversarial examples - Test inputs designed to cause specific failures.
-Fuzzing - Random or mutated inputs to surface crashes and flaws.
-Prompt engineering - Crafting inputs that manipulate model behavior.
-Red teaming: Simulates threats by taking an adversarial perspective. Techniques include:
+* Benchmark performance on representative tasks and datasets.
+* Measure capabilities like accuracy, robustness, efficiency.
+* Identify strengths, limitations, and gaps.
 
-Alternative analysis - Developing competing hypotheses to challenge assumptions.
-Ethics alignment - Critiquing through debates on values.
-Social engineering - Manipulation of human elements.
-Abuse case modeling - Modeling unintended harmful uses.
-Security audits: Assesses vulnerabilities from a computer security lens. Looks at issues like data extraction, infrastructure robustness, cryptographic weaknesses.
+## Adversarial Testing
 
-Interpretability: Techniques to explain model behaviors and analyze internal representations. Can surface biases, gaps in knowledge, reasoning errors.
+* Probe with malformed, adversarial inputs.
+* Check for crashes, unintended behavior, security risks.
+* Informed by threat models, risk analysis.
 
+## Red Teaming
 
+* Model potential real-world risks and failures.
+* Role play adversary perspectives.
+* Surface risks unique to AI.
 
-# Capabilities Assessment
+## Human Oversight
 
-Benchmark performance on representative tasks and datasets.
-Measure capabilities like accuracy, robustness, efficiency.
-Identify strengths, limitations, and gaps.
-
-# Adversarial Testing
-
-Probe with malformed, adversarial inputs.
-Check for crashes, unintended behavior, security risks.
-Informed by threat models, risk analysis.
-
-# Red Teaming
-
-Model potential real-world risks and failures.
-Role play adversary perspectives.
-Surface risks unique to AI.
-
-# Human Oversight
-
-Manual test cases based on human judgment.
-Qualitative feedback on subtle flaws.
-Values alignment evaluation.
+* Manual test cases based on human judgment.
+* Qualitative feedback on subtle flaws.
+* Values alignment evaluation.
 
  
 
-# Attack Examples 
+## Attack Examples 
 
 
 <a href="https://arxiv.org/abs/2307.10719">Mosaic Prompt : breakdown a prompt into permissible components</a>
