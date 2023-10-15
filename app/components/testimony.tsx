@@ -39,7 +39,7 @@ export const Testimonials = () => {
       content: (
         <div>
           <p>
-            My cursory audit of <TwitterHandle>@chronark_</TwitterHandle>'s envshare:
+            My cursory audit of <TwitterHandle>@equianoAI</TwitterHandle>'s envshare:
           </p>
           <p>
             It is light, extremely functional, and does its symmetric block cipher correctly, unique initialization
@@ -84,7 +84,7 @@ export const Testimonials = () => {
       content: (
         <div>
           <p>
-            Congratulations on the launch <TwitterHandle>@chronark_</TwitterHandle>👏! This is such a valuable product
+            Congratulations on the launch <TwitterHandle>@equianoAI</TwitterHandle>👏! This is such a valuable product
             for developers. Icing on the cake is that it's open source! ✨
           </p>
         </div>

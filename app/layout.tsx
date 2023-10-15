@@ -28,26 +28,22 @@ export default function RootLayout({
           <div className="flex flex-col gap-1 px-6 py-12 mx-auto text-xs text-center text-zinc-700 max-w-7xl lg:px-8">
             <p>
               Built by{" "}
-              <Link href="https://twitter.com/chronark_" className="font-semibold duration-150 hover:text-zinc-200">
-                @chronark_
-              </Link>
-              and{" "}
+              <Link href="https://twitter.com/equianoAI" className="font-semibold duration-150 hover:text-zinc-200">
+                @equianoAI
+              </Link>  {" "}
+              and {" "}
               <Link
-                href="https://github.com/chronark/envshare/graphs/contributors"
+                href="https://github.com/equiano-institute/haystack"
                 className="underline duration-150 hover:text-zinc-200"
               >
                 many others{" "}
               </Link>
             </p>
             <p>
-              EnvShare is deployed on{" "}
+              Haystack is deployed on{" "}
               <Link target="_blank" href="https://vercel.com" className="underline duration-150 hover:text-zinc-200">
                 Vercel
-              </Link>{" "}
-              and uses{" "}
-              <Link target="_blank" href="https://upstash.com" className="underline duration-150 hover:text-zinc-200">
-                Upstash
-              </Link>{" "}
+              </Link> {" "}             
               for storing encrypted data.
             </p>
           </div>
