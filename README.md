@@ -3,27 +3,25 @@
  
 </div>
 
-<div align="center">
-  <a href="https://equiano.institute">equiano.institute</a>
-</div>
-<br/>
 
-This project aims to develop Haystack, an open-source platform for red teaming and human feedback on LLMs with crowd-sourcing and [automated methods](https://github.com/equiano-institute/haystack). 
+This project aims to develop Haystack, an open-source platform for red teaming and human feedback on LLMs with crowd-sourcing and automated methods
 
 
 ## Goals
-* build a frontend for Pythia model evaluation https://github.com/EleutherAI/pythia
-* develop a model evaluation interfaces for red teaming from scratch https://arxiv.org/abs/2306.09442
-* develop a representational view of interpretability https://arxiv.org/abs/2310.01405
-* organise open source human feedba
+* build a frontend for [Pythia model evaluation](https://github.com/EleutherAI/pythia)
+* develop a model evaluation interfaces for [red teaming from scratch](https://arxiv.org/abs/2306.09442)
+* develop a [representational view of interpretability](https://arxiv.org/abs/2310.01405)
+* organise open source human feedback data for sharing between models.
 
 ## Challenges & Efforts 
 
 Despite there being many efforts to red team language models, there aren't any available open source frameworks for client-level user model evaluation and red teaming testing.
-* White House https://www.whitehouse.gov/ostp/news-updates/2023/08/29/red-teaming-large-language-models-to-identify-novel-ai-risks
-* UK (Royal Society) https://royalsociety.org/science-events-and-lectures/2023/10/ai-safety-science-redteam
-* The Trojan Detection Challenge 2023 (LLM Edition) https://trojandetection.ai/
+* [White House](https://www.whitehouse.gov/ostp/news-updates/2023/08/29/red-teaming-large-language-models-to-identify-novel-ai-risks)
+* [UK (Royal Society)](https://royalsociety.org/science-events-and-lectures/2023/10/ai-safety-science-redteam)
+* The Trojan Detection [MIT Challenge 2023](https://trojandetection.ai)
 * DEF [CON](https://aivillage.org/defcon31) 
+
+
 
 <br/>
 
