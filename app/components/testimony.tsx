@@ -38,61 +38,60 @@ export const Testimonials = () => {
     {
       content: (
         <div>
+         
           <p>
-            My cursory audit of <TwitterHandle>@equianoAI</TwitterHandle> :
+          "Evaluating LLMs is a minefield". 
+
           </p>
-          <p>
-            It is light, extremely functional, and does its symmetric block cipher correctly, unique initialization
-            vectors, decryption keys derived securely.
+          <br /> 
+          <p>Current ways of evaluating chatbots/LLMs don't work well, especially for questions about societal impact.
           </p>
           <br />
-          <p>Easily modified to remove minimal analytics. Superior to Privnote.</p>
-          <br />
-          <p>Self-hosting is easy. 👏</p>
+          <p> There are no quick fixes. More research is needed. </p>
         </div>
       ),
-      link: "https://twitter.com/FrederikMarkor/status/1615299856205250560",
+      link: "https://twitter.com/random_walker/status/1709583031001124889",
       author: {
-        name: <Author href="https://twitter.com/FrederikMarkor">Frederik Markor</Author>,
-        title: <Title href="https://discreet.net">CEO @discreet</Title>,
-        image: "https://pbs.twimg.com/profile_images/1438061314010664962/NecuMIGR_400x400.jpg",
+        name: <Author href="https://twitter.com/random_walker">Arvind Narayanan</Author>,
+        title: <Title href="https://t.co/px6fpS9QFq">
+      Princeton CS prof. Director @PrincetonCITP.</Title>,
+        image: "https://pbs.twimg.com/profile_images/1650881612756942850/bZYjMyFU_400x400.jpg",
       },
     },
     {
       content: (
         <div>
-          <p>I{"'"} m particularly chuffed about this launch, for a couple of reasons:</p>
+          <p>Open LLMs need to get organized and co-ordinated about sharing human feedback. It's the weakest link with Open LLMs right now.</p>
           <ul>
             <li>
-              ◆ Built on <TwitterHandle>@nextjs</TwitterHandle> + <TwitterHandle>@upstash</TwitterHandle>, hosted on{" "}
-              <TwitterHandle>@vercel</TwitterHandle>
+            They don't have 100m+ people giving feedback like in the case of  <TwitterHandle>@OpenAI/Anthropic/Bard.
+             </TwitterHandle>
             </li>
-            <li>◆ 100% free to use & open source</li>
-            <li>◆ One-click deploy via Vercel + Upstash integration</li>
-          </ul>
-          <p>Deploy your own → http://vercel.fyi/envshare</p>
+            Dataset creation is one of the highest impact but least prestigious activities in machine learning research. 
+          </ul> 
         </div>
       ),
-      link: "https://twitter.com/steventey/status/1615035241772482567?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615035241772482567%7Ctwgr%5E1db44bb10c690189e24c980fcd787299961c34c6%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fsteventey2Fstatus2F1615035241772482567widget%3DTweet",
+      link: "https://twitter.com/soumithchintala/status/1713698431338754393",
       author: {
-        name: <Author href="https://twitter.com/steventey">Steven Tey</Author>,
-        title: <Title href="https://vercel.com">Senior Developer Advocate at Vercel</Title>,
-        image: "https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg",
+        name: <Author href="https://twitter.com/soumithchintala">Soumith Chintala</Author>,
+        title: <Title href="https://t.co/UvSnXZxGCO">
+        Cofounded and lead @PyTorch  at Meta.</Title>, 
+        image: "https://pbs.twimg.com/profile_images/959995586689691648/DAFep10r_400x400.jpg",
       },
     },
     {
       content: (
         <div>
-          <p>
-            Congratulations on the launch <TwitterHandle>@equianoAI</TwitterHandle>👏! This is such a valuable product
-            for developers. ✨
+          <p> 
+            Let's face it, most safety issues apply to all AI, not just open-source. Even worse, APIs and low-code/no-code is easier to use for 1,000x more people which multiplies the number of potential bad actors & risk exponentially IMO. Let's all work together on these risks instead of blaming the other.
+ 
           </p>
         </div>
       ),
-      link: "https://twitter.com/DesignSiddharth/status/1615293209164546048",
+      link: "https://twitter.com/ClementDelangue/status/1709939218812973258",
       author: {
-        name: <Author href="https://twitter.com/DesignSiddharth">@DesignSiddharth</Author>,
-        image: "https://pbs.twimg.com/profile_images/1613772710009765888/MbSblJYf_400x400.jpg",
+        name: <Author href="https://twitter.com/DesignSiddharth">@ClementDelangue</Author>,
+        image: "https://pbs.twimg.com/profile_images/1100512198139498497/utHSJ4st_400x400.png",
       },
     },
   ];

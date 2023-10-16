@@ -9,17 +9,17 @@ export const Stats = asyncComponent(async () => {
     .get("envshare:metrics:reads")
     .get("envshare:metrics:writes")
     .exec<[number, number]>();
-  const stars = await fetch("https://api.github.com/repos/chronark/envshare")
+  const stars = await fetch("https://api.github.com/repos/equiano-institute/haystack")
     .then((res) => res.json())
     .then((json) => json.stargazers_count as number);
 
   const stats = [
     {
-      label: "Documents Encrypted",
+      label: "Models Evaluated",
       value: writes,
     },
     {
-      label: "Documents Decrypted",
+      label: "Attack Success Rate",
       value: reads,
     },
   ] satisfies { label: string; value: number }[];

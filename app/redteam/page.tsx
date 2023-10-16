@@ -17,16 +17,6 @@ export default function Chat() {
   const [successfulAttacks, setSuccessfulAttacks] = useState(0);
   const [totalAttempts, setTotalAttempts] = useState(0);
 
-  function performAttack() {
-    // Simulated function to perform an attack
-    // Logic for the attack...
-    const isAttackSuccessful = Math.random() < 0.5; // Simulated success probability
-    if (isAttackSuccessful) {
-      setSuccessfulAttacks(prev => prev + 1);
-    }
-    setTotalAttempts(prev => prev + 1);
-  }
-
   const attackSuccessRate = ((successfulAttacks / totalAttempts) * 100).toFixed(2);
 
 
@@ -84,15 +74,12 @@ export default function Chat() {
            <span className='' style={{ background: `${colorTokens}` }}>
           {" "} {colorTokens} 
           </span>
+          <span className="">Attack Success Rate (ATS) {attackSuccessRate} % </span>
+         
         </button>
         
       
-        <div className="mt-4">
-        <h2 className="text-xl font-semibold mb-2">Attack Success Rate</h2>
-        <div className="text-white">Successful Attacks: {successfulAttacks}</div>
-        <div className="text-white">Total Attempts: {totalAttempts}</div>
-        <div className="text-white">Attack Success Rate: {attackSuccessRate}%</div>
-      </div>
+       
 
       </form>
        <div aria-hidden="true" className="w-[300px] max-w-[400px] mx-auto user-select-none center pointer-events-none  h-px max-w-full" 
@@ -103,7 +90,7 @@ export default function Chat() {
           <div className="mb-4" key={m.id}>
             {m.role === 'user' ? 'User: ' : 'AI: '}
             {m.content}
-             {m.role === 'user' ? '': '🖍️'}
+             {m.role === 'user' ? '': '▷'}
           </div>
         ))}
       </section>
