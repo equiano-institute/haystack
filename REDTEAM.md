@@ -1,5 +1,11 @@
 # Red Teaming 
 
+## Red Teaming
+
+* add Pythia
+* add few shot [evaluation](https://github.com/EleutherAI/lm-evaluation-harness)
+* https://arxiv.org/pdf/2310.06824.pdf
+
 ## Capabilities Assessment
 
 * Benchmark performance on representative tasks and datasets.
@@ -49,3 +55,13 @@
 
 
 <img src="public/low.jpg" alt="Low Resource" width="400" >
+
+
+* https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31
+* http://aivillage.org/
+* https://huggingface.co/blog/red-teaming
+* https://huggingface.co/datasets/Anthropic/hh-rlhf
+* mini gpt https://minigpt-v2.github.io 
+* [haystack red teaming](https://haystack-evals.vercel.app/redteam)
+
+

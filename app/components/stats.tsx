@@ -1,14 +1,10 @@
-import { Redis } from "@upstash/redis";
+// import { Redis } from "@upstash/redis";
 
-const redis = Redis.fromEnv();
+// const redis = Redis.fromEnv();
 export const revalidate = 60;
 
 export const Stats = asyncComponent(async () => {
-  const [reads, writes] = await redis
-    .pipeline()
-    .get("envshare:metrics:reads")
-    .get("envshare:metrics:writes")
-    .exec<[number, number]>();
+ 
   const stars = await fetch("https://api.github.com/repos/equiano-institute/haystack")
     .then((res) => res.json())
     .then((json) => json.stargazers_count as number);
@@ -16,11 +12,11 @@ export const Stats = asyncComponent(async () => {
   const stats = [
     {
       label: "Models Evaluated",
-      value: writes,
+      value: 0,
     },
     {
       label: "Attack Success Rate",
-      value: reads,
+      value: 0,
     },
   ] satisfies { label: string; value: number }[];
 

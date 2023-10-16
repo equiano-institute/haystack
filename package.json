@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@nanostores/react": "github:ai/react",
     "@next/font": "13.1.1",
     "@tailwindcss/forms": "^0.5.6",
     "@types/node": "18.11.18",
