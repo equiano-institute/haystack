@@ -44,7 +44,7 @@ export const Testimonials = () => {
 
           </p>
           <br /> 
-          <p>Current ways of evaluating chatbots/LLMs don't work well, especially for questions about societal impact.
+          <p>Current ways of evaluating chatbots/LLMs don{"'"}t work well, especially for questions about societal impact.
           </p>
           <br />
           <p> There are no quick fixes. More research is needed. </p>
@@ -61,10 +61,10 @@ export const Testimonials = () => {
     {
       content: (
         <div>
-          <p>Open LLMs need to get organized and co-ordinated about sharing human feedback. It's the weakest link with Open LLMs right now.</p>
+          <p>Open LLMs need to get organized and co-ordinated about sharing human feedback. It{"'"}s the weakest link with Open LLMs right now.</p>
           <ul>
             <li>
-            They don't have 100m+ people giving feedback like in the case of  <TwitterHandle>@OpenAI/Anthropic/Bard.
+            They don{"'"}t have 100m+ people giving feedback like in the case of  <TwitterHandle>@OpenAI/Anthropic/Bard.
              </TwitterHandle>
             </li>
             Dataset creation is one of the highest impact but least prestigious activities in machine learning research. 
@@ -83,7 +83,7 @@ export const Testimonials = () => {
       content: (
         <div>
           <p> 
-            Let's face it, most safety issues apply to all AI, not just open-source. Even worse, APIs and low-code/no-code is easier to use for 1,000x more people which multiplies the number of potential bad actors & risk exponentially IMO. Let's all work together on these risks instead of blaming the other.
+            Let{"'"}s face it, most safety issues apply to all AI, not just open-source. Even worse, APIs and low-code/no-code is easier to use for 1,000x more people which multiplies the number of potential bad actors & risk exponentially IMO. Let{"'"}s all work together on these risks instead of blaming the other.
  
           </p>
         </div>
