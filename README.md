@@ -1,5 +1,5 @@
 <div align="center">
-    <h1 align="center">Red Teaming LLMs Guide</h1>
+    <h1 align="center">Red Teaming LLMs</h1>
  
 </div>
 
@@ -8,13 +8,22 @@
 </div>
 <br/>
 
-The Red Teaming LLMs Guide is a comprehensive resource for red teaming language models. It provides valuable insights and techniques for evaluating, testing, and assessing the security and robustness of language models. The guide is hosted at the Equiano Institute and can be found on GitHub at [github.com/equiano-institute/haystack](https://github.com/equiano-institute/haystack).
+This project aims to develop Haystack, an open-source platform for red teaming and human feedback on LLMs with crowd-sourcing and [automated methods](https://github.com/equiano-institute/haystack). 
 
-## Features
 
-- **In-depth Analysis:** Explore detailed analysis and methodologies for red teaming language models
-- **Practical Techniques:** Learn practical techniques for evaluating the security and robustness of language models
-- **Comprehensive Guide:** Access a comprehensive guide that covers various aspects of red teaming LLMs
+## Goals
+* build a frontend for Pythia model evaluation https://github.com/EleutherAI/pythia
+* develop a model evaluation interfaces for red teaming from scratch https://arxiv.org/abs/2306.09442
+* develop a representational view of interpretability https://arxiv.org/abs/2310.01405
+* organise open source human feedba
+
+## Challenges & Efforts 
+
+Despite there being many efforts to red team language models, there aren't any available open source frameworks for client-level user model evaluation and red teaming testing.
+* White House https://www.whitehouse.gov/ostp/news-updates/2023/08/29/red-teaming-large-language-models-to-identify-novel-ai-risks
+* UK (Royal Society) https://royalsociety.org/science-events-and-lectures/2023/10/ai-safety-science-redteam
+* The Trojan Detection Challenge 2023 (LLM Edition) https://trojandetection.ai/
+* DEF [CON](https://aivillage.org/defcon31) 
 
 <br/>
 
