@@ -40,7 +40,7 @@ export const Testimonials = () => {
         <div>
          
           <p>
-          "Evaluating LLMs is a minefield". 
+          Evaluating LLMs is a minefield. 
 
           </p>
           <br /> 
